@@ -1,0 +1,40 @@
+#container {
+    background-color:rgba(247, 112, 24, 0.2);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color:rgba(185, 63, 8);
+    }
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color:rgba(185, 63, 8);
+    }
+figcaption {
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-size: .75em;
+    font-weight: 400;
+    color: rgba(185, 63, 8);
+
+}
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+img {
+    width: 400px;
+    height: 350px;
+}
+figure {
+    text-align: center;
+}
+.grid-item {
+    border: 1px solid rgba(185, 63, 8, 1);
+    border-radius: 15px;
+    padding: 5px;
+}
