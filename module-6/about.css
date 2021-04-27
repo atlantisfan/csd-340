@@ -1,0 +1,119 @@
+body {
+    font-family: 'Hind','Libre Franklin', sans-serif;
+    font-weight: 300;
+    line-height: 1.4em;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 40%, rgba(214,0,0,1) 100%);    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+p {
+    font-family: 'Hind','Libre Franklin', sans-serif;
+    font-weight: 400;
+    line-height: 1.4em;
+    }
+
+h1 {
+    font-family: 'Hind','Libre Franklin', sans-serif;
+    font-weight: 400;
+    line-height: 1.0em;
+    }
+
+h2 {
+    font-family: 'Hind','Libre Franklin', sans-serif;
+    font-weight: 400;
+    line-height: .8em;
+    }
+
+h3 {
+    font-family: 'Hind','Libre Franklin', sans-serif;
+    font-weight: 400;
+    line-height: .4em;
+    }
+
+h4 {
+    font-family: 'Hind','Libre Franklin', sans-serif;
+    font-weight: 200;
+    line-height: .005em;
+    }
+
+#container {
+    height: 100%;
+    margin: auto;
+    }
+#center {
+    margin: auto;
+    width: 60%;
+    min-width: 650px;
+    height: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-left-color: rgb(138, 138, 138);
+    border-left-style: solid;
+    border-right-color: rgb(138, 138, 138);
+    border-right-style: solid;
+    border-left-width: .5px;
+    border-right-width: .5px;
+}
+.content {
+    padding: 10px;
+    text-align: left;
+    float: right;
+    text-align: left;
+
+}
+picture {
+    text-align: center;
+}
+img {
+    padding: 0;
+    height: 300px;
+    width: 450px;
+    border-radius: 5px;
+    }
+caption {
+    font-style: italic;
+    text-align: center;
+}
+#nav_bar {
+    text-align: center;
+    height: 30px;
+    margin: auto;
+    padding-top: 10px;
+    width: 60%;
+    min-width: 650px;
+    background-color: #ff0000;
+    border-left-color: rgb(138, 138, 138);
+    border-left-style: solid;
+    border-right-color: rgb(138, 138, 138);
+    border-right-style: solid;
+    border-left-width: .5px;
+    border-right-width: .5px;
+}
+a.nav_bar:link {
+    color:  #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-stretch: extra-expanded;
+}
+a.nav_bar:hover {
+    color: #ff0000;
+    background-color: #fdfff2;
+    font-stretch: extra-expanded;
+}
+a:link {
+    color:  #ffffff;
+    text-decoration: none;
+    }
+a:hover {
+    color: #ff0000;
+    background-color: #fdfff2;
+}
+a:visited {
+    color: #130066;
+}
+
